@@ -3,7 +3,7 @@
 ## Overview 📋
 ServiceHub is a dynamic web application engineered to facilitate efficient service management across diverse industries, specifically for local service providers. While it's inherently adaptable to suit various service types, our current focus is CleanCo, a specialized implementation for the cleaning service sector. This platform is designed to optimize the interaction between customers, service staff, and administrators, leveraging technology to enhance user experience and operational efficiency.    
 
-***
+---
 
 ## Detailed Features 🛠️
 
