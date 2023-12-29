@@ -3,6 +3,7 @@
 ## Overview 📋
 ServiceHub is a dynamic web application engineered to facilitate efficient service management across diverse industries, specifically for local service providers. While it's inherently adaptable to suit various service types, our current focus is CleanCo, a specialized implementation for the cleaning service sector. This platform is designed to optimize the interaction between customers, service staff, and administrators, leveraging technology to enhance user experience and operational efficiency.
 
+
 ## Detailed Features 🛠️
 
 ### For Customers 👥
@@ -18,9 +19,11 @@ ServiceHub is a dynamic web application engineered to facilitate efficient servi
 - **Advanced User Role Management**: Administrators can manage user roles and permissions with precision, ensuring the right staff have the appropriate access levels to various system functionalities.
 - **Comprehensive Operational Control**: The platform provides administrators with the tools to oversee service offerings, manage operational aspects, and maintain quality control. This includes features for adding or removing services, monitoring service delivery, and generating reports.
 
+
 ## Technology Stack 💻
 - **Front End**: HTML, CSS, Embedded JSP - crafted to create a visually appealing and responsive user interface, ensuring a seamless user experience. JSP is used to dynamically generate HTML content on the server before it's sent to the client's browser.
 - **Back End**: Oracle Database, Java, JavaServerPages(JSP), Apache Tomcat - a combination chosen for its reliability and scalability, capable of supporting a wide range of service management tasks.
+
 
 ## Getting Started 🚀
 As you embark on your journey with the ServiceHub project, consider this "Getting Started" guide as a stepping stone, especially if you're at the beginning of your web development journey. The code is written when i was at that stage...so it should be beginner friendly when you are scratching your head around the overwhelming amount of concepts to learn. It's crafted with the intention to gently lead you through the nuances of setting up and customizing a web application with above technologies. Remember, every expert was once a beginner, and this project could be a significant milestone in your learning journey :)
@@ -87,6 +90,7 @@ As the sole developer of ServiceHub, I've designed this platform to be a helpful
 - **Reporting Issues**: Found a bug? Let me know! Clear descriptions of the problem help me make ServiceHub more reliable.
 
 Your contributions, big or small, play a significant role in the growth and improvement of the project and help others learn better.
+
 
 ## License 📄
 
