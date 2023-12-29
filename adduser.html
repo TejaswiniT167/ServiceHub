@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE>add_user</TITLE>
+<style>
+	body{
+		background-image: url("images/bg.jpg");
+		background-size: 1250px 750px;
+	}
+</style>
+<META NAME="Generator" CONTENT="EditPlus">
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+</HEAD>
+
+<BODY BGCOLOR=#ffffff onload="document.testform.email.focus()">
+
+<FORM METHOD=POST ACTION="adduserjsp.jsp" name="testform">
+<CENTER>
+<B><FONT SIZE="5" COLOR="#660000">ADD USER DETAILS</FONT></B><BR><BR>
+
+<TABLE border="2" style="border-collapse: collapse">
+<TR>
+	<TD><B>EMAIL</TD>
+	<TD><INPUT TYPE="text" NAME="email" size=20 ></TD>
+</TR>
+<TR>
+	<TD><B>PASSWORD</TD>
+	<TD><INPUT TYPE="text" NAME="password" size=15 maxlength=12></TD>
+</TR>
+<TR>
+	<TD><B>DESIGNATION</B></TD>
+	<TD>&nbsp;&nbsp;<SELECT NAME="desig">
+	<option>--Select designation--</option>
+	<OPTION>administrator</OPTION>
+	<OPTION>staff</OPTION>
+	<OPTION>customer</OPTION>
+	</SELECT></TD>
+</TR>
+<TR>
+	<TD>&nbsp;</TD>
+	<TD><CENTER><INPUT TYPE="submit" VALUE="SUBMIT"></CENTER></TD>
+</TR>
+
+</TABLE>
+<BR><BR><INPUT TYPE="button" onClick="window.location='admin.html'" value="BACK">
+
+
+</FORM>
+</BODY>
+</HTML>

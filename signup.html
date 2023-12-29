@@ -1,0 +1,141 @@
+<html>
+  <head>
+    <title>signup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: "Nunito", sans-serif;
+      }
+      .b-image {
+        background-image: url("images/signup1.jpg");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .main {
+        font-size: 1.2em;
+        width: 500px;
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 40px;
+        margin-left: 70px;
+        box-shadow: 2px 2px 15px 0.2em #a5c3c7;
+      }
+      .main th {
+        color: rgb(255, 255, 255);
+        border-radius: 25px;
+        font-size: 3em;
+        text-align: center;
+        font-family: "Baloo Tamma 2", cursive;
+        line-height: 0.8em;
+        padding-top: 7px;
+      }
+      .heads {
+        text-align: left;
+        padding-left: 70px;
+        color: rgb(27, 78, 149);
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+      .enlarge:hover {
+        -ms-transform: scale(1.5); /* IE 9 */
+        -webkit-transform: scale(1.5); /* Safari 3-8 */
+        transform: scale(1.1);
+        transition: width 0.3s, height 0.3s, transform 0.2s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="b-image">
+      <form action="signupjsp.jsp" method="post">
+        <table class="main">
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <tr></tr>
+          <tr>
+            <th colspan="2">
+              <span style="color: rgb(45, 171, 99)">Sign</span
+              ><span style="color: rgb(83, 179, 208)">up</span>
+            </th>
+          </tr>
+          <tr>
+            <td class="heads">Email</td>
+            <td>
+              <input
+                class="enlarge"
+                type="text"
+                name="email"
+                style="
+                  border-radius: 1em;
+                  border-width: 0.1em;
+                  height: 2em;
+                  padding-left: 1em;
+                "
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td class="heads">Password</td>
+            <td>
+              <input
+                class="enlarge"
+                type="password"
+                name="password"
+                style="
+                  border-radius: 1em;
+                  border-width: 0.1em;
+                  height: 2em;
+                  padding-left: 1em;
+                "
+                required
+              />
+            </td>
+          </tr>
+          <tr></tr>
+          <tr></tr>
+          <tr></tr>
+          <tr>
+            <td colspan="2" style="text-align: center">
+              <input
+                type="submit"
+                value="Signup"
+                class="enlarge"
+                style="
+                  height: 2.5em;
+                  width: 7em;
+                  font-size: 0.9em;
+                  border-radius: 3.5em;
+                  color: rgb(252, 252, 252);
+                  font-weight: bold;
+                  border-width: 0em;
+                  background-color: rgb(15, 142, 149);
+                "
+              />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>
